@@ -1,0 +1,198 @@
+*
+{
+	margin:0px ;
+	padding:0px;
+}
+.menu li
+{
+	float:left;
+	list-style: none;
+	margin:10px 25px ;
+}
+.blok-menu
+{
+	position: fixed; /* Фиксированное положение */
+	right: 0px; /* Расстояние от правого края окна браузера */
+	top: 0px; /* Расстояние сверху */
+	overflow: hidden;
+	background: #444;
+	box-shadow: 0px 13px 17px -6px #000000;
+	width: 100%;
+}
+.menu
+{
+	margin:0 auto;
+	display:table;
+}
+.menu li a
+{
+	font: 18px Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-decoration: none;
+}
+.menu li a:hover
+{
+	font: 18px Verdana, Arial, Helvetica, sans-serif;
+	color:#ccc;
+	border-bottom:1px dotted #ccc;
+}
+
+.vertical-menu {
+	position: fixed; /* Фиксированное положение */
+	right: 0px; /* Расстояние от правого края окна браузера */
+	top: 20%; /* Расстояние сверху */
+	border: 1px solid #333; /* Параметры рамки */ 
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu p.head {
+	font: 18px Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	
+	
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    background-color: #444; /* Add a green color to the "active/current" link */
+}
+
+.vertical-menu a.active {
+    background-color: #A9A9A9; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.logo
+{
+	margin:0 auto;
+	width:200px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.logo img
+{
+	-moz-border-radius: 200px; /* Firefox */
+	-webkit-border-radius: 200px; /* Safari, Google Chrome */
+	-khtml-border-radius: 200px; /* KHTML */
+	-o-border-radius: 200px; /* Opera */
+	-ms-border-radius: 200px; /* IE8 */
+	-icab-border-radius: 200px; /* Icab */
+	border-radius: 200px; /* CSS3 */
+}
+
+.content
+{
+	width:700px;
+	margin:0 auto;
+	padding:20px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+ 
+.content h2
+{
+	font: 30px Verdana, Arial, Helvetica, sans-serif;
+	color:#444;
+	text-align:center;
+}
+ 
+.content p
+{
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#444;
+	text-indent:20px;
+}
+
+.column {
+	-webkit-column-width: 200px;
+	-moz-column-width: 200px;
+	column-width: 200px;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+	-webkit-column-rule: 1px solid #ccc;
+	-moz-column-rule: 1px solid #ccc;
+	column-rule: 1px solid #ccc;
+}
+
+A {
+	text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color: #808080; /* Задаем цвет подчеркивания */
+} 
+
+A:hover { 
+	text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+	color: black; /* Задаем цвет подчеркивания */
+} 
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+a.anchorTop {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+.upDown{
+	position: fixed; /* Фиксированное положение */
+	right: 50px; /* Расстояние от правого края окна браузера */
+	bottom: 8%; /* Расстояние сверху */
+	padding: 10px; /* Поля вокруг текста */ 
+	background: #ffe; /* Цвет фона */ 
+	border: 1px solid #333; /* Параметры рамки */ 
+}
+
+/* .leftimg { */
+	/* float:left; /* Выравнивание по левому краю */
+	/* margin: 7px 7px 7px 0; /* Отступы вокруг картинки */ 
+/* } */
+/* .rightimg  { */
+	/* float: right; /* Выравнивание по правому краю  */  
+	/* margin: 7px 0 7px 7px; /* Отступы вокруг картинки */ 
+/* } */
+
+.footer
+{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+.footer p, .footer a
+{
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#444;
+}
+ 
+.footer a
+{
+	text-decoration: none;
+	border-bottom:1px dotted #444;
+}
+ 
+.footer a:hover
+{
+	text-decoration: none;
+	border:0px;
+}
